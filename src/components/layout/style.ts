@@ -30,8 +30,10 @@ const Logo = styled.div`
 
 const Img = styled.div`
   img {
-    width: ${px2vw(150)};
-    height: ${px2vw(70)};
+    width: ${px2vw(200)};
+    height: ${px2vw(75)};
+    object-fit: contain;
+    object-position: center;
   }
 `;
 
@@ -70,7 +72,7 @@ const Main = styled.div`
 `;
 
 const FooterStyled = styled.footer`
-  position: fixed;
+  position: sticky;
   bottom: 0;
   display: flex;
   justify-content: space-between;
